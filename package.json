@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "Tanveer Singh",
@@ -13,5 +13,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "web-push": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
   }
 }
